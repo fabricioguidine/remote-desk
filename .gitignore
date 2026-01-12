@@ -70,3 +70,4 @@ config.json
 *.pem
 *.crt
 *.key
+tmpclaude*
