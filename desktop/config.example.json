@@ -1,0 +1,28 @@
+{
+    "connection": {
+        "mode": "relay",
+        "relay_url": "wss://meu-relay.duckdns.org:8443",
+        "token": "minha-senha-secreta-456",
+        "reconnect_interval": 5,
+        "timeout": 30
+    },
+    "server": {
+        "id": "PC-ESCRITORIO",
+        "capture_fps": 30,
+        "quality": 70,
+        "scale": 1.0,
+        "monitor": 0
+    },
+    "client": {
+        "show_fps": true,
+        "show_latency": true,
+        "fullscreen_key": "F11",
+        "disconnect_key": "Escape"
+    },
+    "alternatives": {
+        "ngrok_enabled": false,
+        "ngrok_authtoken": "",
+        "bore_enabled": false,
+        "bore_server": "bore.pub"
+    }
+}
