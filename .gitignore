@@ -71,3 +71,13 @@ config.json
 *.crt
 *.key
 tmpclaude*
+
+# Claude Code artifacts (per personal preference, never push to remote)
+CLAUDE.md
+tmpclaude-*-cwd/
+.claude/
+
+# Python venvs
+venv/
+.venv/
+env/
